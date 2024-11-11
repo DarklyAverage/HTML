@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      
+      coming-soon-regular {
+      font-family: "Coming Soon", cursive;
+      font-weight: 400;
+      font-style: normal;
+      }
+
+      h1 {
+        
+        font-family: 'Tangerine', serif;
+        font-size: 150px;
+        color: white;
+        text-align: center;
+      }
+
+      h2 {
+        font-family: "Coming Soon", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px
+      }
+      
+      p {
+        font-size: 25px;
+      }
+      
+      summary {
+        font-size:30px
+      }
+      
+      .hand {
+              width: 100px;
+              animation: wave 1.5s infinite;
+              display: block;
+              margin: 20px auto;
+              border: 5px solid white;
+              border-radius: 10px;
+              border-radius: 1000%;
+            }
+
+            @keyframes wave {
+                0% {
+                    transform: rotate(0deg);
+                }
+                25% {
+                    transform: rotate(-15deg);
+                }
+                50% {
+                    transform: rotate(0deg);
+                }
+                75% {
+                    transform: rotate(15deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+
+      </style>
+    </head>
+    <body>
+
+    <h1>About Me</h1>
+    <h2>My List Of Personas</h2>
+    <p>This section is likely the most immediately relevant to you. This lists off the variety of different usernames or other contact methods that I have, though it is not a fully comprehensive list.</p>
+    <details>
+      <summary>Games</summary>
+      <p>A list of some of the more popular games I play. Should the game you are looking for contacting me on not be on this list, refer to the "Other" category.</p>
+      <details>
+        <summary>Minecraft</summary>
+        <p>I go by DarklyAverage on this game and relevant other places.</p>
+    </details>
+    <details>
+        <summary>Once Human</summary>
+        <p>I go by various different names, however I generally stick to a theme of either Dark or Dirt as the prefix, and as the other part would commonly be Beacon or Average.</p>
+    </details>
+    </details>
+    <details>
+      <summary>Indie</summary>
+      <p>I participate in a lot of indie shows, animation, game, and other relevant things. Here is a playlist of examples endorsed by youtube, although under no circumstances is this a comprehensive list.</p>
+      <iframe width="1120" height="630" src="https://www.youtube.com/embed/0z9Y6LXgj-4?list=PL2zzFmCbIz4e9gSw1FDErobJBqPLP9_vW" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </details>
+    <details>
+      <summary>Book Communities & Other Socials</summary>
+      <p>Should you have found this list, I suspect that you are already aware of many of these. If you are trying to contact me, my personal email suffices. (Listed in Other)</p>
+    </details>
+    <details>
+      <summary>Other</summary>
+      <p>I go by various different names, however I generally stick to a theme of either Dark or Dirt as the prefix, and as the other part would commonly be Beacon or Average, although there are exceptions and variations.</p>
+      <details>
+        <summary>Referable Email</summary>
+        <p>This is a throwaway email that I have, checked every once in a while: "darkultima999@gmail.com"</p>
+      </details>
+    </details>
+
+    <h2>The Real About Me</h2>
+    <p>After bothering to look past the list of constantly expanding personas, I have compiled a list of things that I deem safe to expose to the web, those of which are here.</p>
+    <p>My name is Finley, although I go by many online aliases and nicknames. </p>
+    <p>
+      <img class="hand" src="https://media.istockphoto.com/id/1303509809/vector/waving-hand-gesture-icon-waving-hand-gesture-vector-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=w1Z9_alE9jnc6DcLgrg17JtF1sQ5uwB84YKQ9cxZoaY=" alt="Waving Hand">
+    </p>
+    
+
+    <button onclick="displayDate()">Click the button to display/update the time (just for fun)</button>
+    
+    
+    <p id="demo">Time</p>
+
+    </body>
+
+    <script>
+        function displayDate() {
+          document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+       
+</html>
